@@ -5,22 +5,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64c9ead9-44b9-4e9d-90fa-3e1ccf28d03e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Alex-100-days-projects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 11/art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 11/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 11/prime_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 12/art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 12/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 12/main_rework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 11/black-jack-project/.idea/black-jack-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 11/black-jack-project/.idea/black-jack-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 11/black-jack-project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day 11/black-jack-project/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 11/black-jack-project/art.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day15-Coffee-Machine/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day15-Coffee-Machine/.idea/Day15-Coffee-Machine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day15-Coffee-Machine/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day15-Coffee-Machine/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day15-Coffee-Machine/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day15-Coffee-Machine/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day15-Coffee-Machine/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/.idea/Day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/day16/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/day16/.idea/fuck.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/day16/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/day16/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/day16/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/day16/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/day16/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/day16/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/ptable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_15/Day16/turtle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_16/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_16/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_16/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_16/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_16/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/.idea/Nato_alphabet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/nato_phonetic_alphabet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nato_alphabet/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angela_day_57_work/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angela_day_57_work/.idea/angela_day_57_work.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angela_day_57_work/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angela_day_57_work/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angela_day_57_work/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angela_day_57_work/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angela_day_57_work/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angela_day_57_work/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/.idea/blog_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_project/templates/name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/.idea/html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/.idea/html_forms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_forms/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100_must_watch_movies/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100_must_watch_movies/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_11/black-jack-project/.idea/black-jack-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day_11/black-jack-project/.idea/black-jack-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_11/black-jack-project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day_11/black-jack-project/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_11/black-jack-project/art.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_17/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_17/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_17/question_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_17/quiz_brain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_18/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_18/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_25/us_states_game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_25/us_states_game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_28/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_28/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_components/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_components/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_intro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_intro/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap_intro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs_4_star/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bs_4_star/scratch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flight_deals/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_deals/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flight_deals/flight_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flight_deals/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/flight_deals/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iss_overhead_notifier/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/iss_overhead_notifier/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tindog/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_and_twilio/.idea/weather_and_twilio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/weather_and_twilio/.idea/weather_and_twilio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_and_twilio/day_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather_and_twilio/day_work.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workout_tracker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout_tracker/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +122,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Day 12" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alexkharrod"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alexkharrod&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/alexkharrod/Alex_100_days_python_projects.git",
+    "url": "https://github.com/alexkharrod/blog_withcontact.git",
     "accountId": "f9542a12-c8e0-47c2-91dc-74ae4546834e"
   }
 }]]></component>
@@ -57,7 +151,8 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/alexharrod/Documents/PycharmProjects/Alex-100-days-projects"
+    "last_opened_file_path": "/Users/alexharrod/Documents/PycharmProjects/Alex-100-days-projects",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -120,7 +215,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-8336bb23522e-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19072.16" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>

@@ -2,7 +2,53 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Day 11/black-jack-project" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Day 12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/100_must_watch_movies" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Billboard_top_100_1999" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_11/black-jack-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_15/Day15-Coffee-Machine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_15/Day16" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_15/Day16/day16" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_16" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_17" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_18" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_19" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_20" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_22" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_23" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_24" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_25" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_26" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day_28" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Nato_alphabet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SF_Renting_research" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Selenium" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/amazon_price_tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angela_day_57_work" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/automated_birthday_emailer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blog_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bootstrap_components" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bootstrap_intro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bs_4_star" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day57" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day_61_flask_wth_secrets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flash_card_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flask_upper_lower" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flight_deals" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/habit_tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hello_flask" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/html" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/html_forms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/internet_speed_twitter_bot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iss_overhead_notifier" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my_personal_site" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/password_manager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/quizzler" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stock_trading_news" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tindog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/upgraded_blog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/weather_and_twilio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/workout_tracker" vcs="Git" />
   </component>
 </project>
