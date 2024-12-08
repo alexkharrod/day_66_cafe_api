@@ -81,8 +81,14 @@ with app.app_context():
 
 @app.route("/")
 def home():
-    result = db.session.execute(db.select(Movie).order_by(Movie.ranking.desc()))
+    result = db.session.execute(db.select(Movie).order_by(Movie.rating.desc()))
     movies = result.scalars().all()
+    i = 1
+    for movie in movies:
+        ranking = i
+        movie.ranking = ranking
+        i += 1
+        db.session.commit()
     return render_template("index.html", movies=movies)
 
 @app.route('/select', methods=["POST", "GET"])
