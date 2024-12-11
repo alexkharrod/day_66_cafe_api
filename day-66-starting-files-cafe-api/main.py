@@ -1,28 +1,22 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Integer, String, Boolean
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+from load_dotenv import load_dotenv
+import os
+import random
 
-'''
-Install the required packages first: 
-Open the Terminal in PyCharm (bottom left). 
-
-On Windows type:
-python -m pip install -r requirements.txt
-
-On MacOS type:
-pip3 install -r requirements.txt
-
-This will install the packages from requirements.txt for this project.
-'''
+load_dotenv()
 
 app = Flask(__name__)
 
 # CREATE DB
 class Base(DeclarativeBase):
     pass
+
+
 # Connect to Database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cafes.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("SQLITE_URL")
 db = SQLAlchemy(model_class=Base)
 db.init_app(app)
 
@@ -42,6 +36,21 @@ class Cafe(db.Model):
     coffee_price: Mapped[str] = mapped_column(String(250), nullable=True)
 
 
+    def to_dict(self):
+        # Method 1.
+        dictionary = {}
+        # Loop through each column in the data record
+        for column in self.__table__.columns:
+            # Create a new dictionary entry;
+            # where the key is the name of the column
+            # and the value is the value of the column
+            dictionary[column.name] = getattr(self, column.name)
+        return dictionary
+
+
+        # Method 2. Altenatively use Dictionary Comprehension to do the same thing.
+        # return {column.name: getattr(self, column.name) for column in self.__table__.columns}
+        #
 with app.app_context():
     db.create_all()
 
@@ -52,10 +61,65 @@ def home():
 
 
 # HTTP GET - Read Record
+@app.route("/random")
+def random_cafe():
+    result = db.session.execute(db.select(Cafe))
+    all_cafes = result.scalars().all()
+    random_cafe = random.choice(all_cafes)
+    return jsonify(cafe=random_cafe.to_dict())
+
+
+@app.route("/all")
+def get_all():
+    # get the list of cafe object and using a list comprehension jsonify them to a json dict witht he key of cafes
+    result = db.session.execute(db.select(Cafe))
+    all_cafes = result.scalars().all()
+    return jsonify(cafes=[cafe.to_dict() for cafe in all_cafes])
+
+@app.route("/search", methods=["GET"])
+def search():
+    location = request.args.get('loc')
+    # if no data is presented let them know
+    if not location:
+        return jsonify(error=[{"Error": "Location Parameter missing"}])
+    result = db.session.execute(db.select(Cafe).where(Cafe.location == location))
+    all_cafes = result.scalars().all()
+    if not all_cafes:
+        return jsonify(error={"Not Found": "Sorry we dont have a cafe at that location"}), 404
+    else:
+        return jsonify(cafes=[cafe.to_dict() for cafe in all_cafes])
+
+
 
 # HTTP POST - Create Record
+@app.route("/add", methods=["POST"])
+def post_new_cafe():
+    new_cafe = Cafe(
+        name=request.form.get("name"),
+        map_url=request.form.get("map_url"),
+        img_url=request.form.get("img_url"),
+        location=request.form.get("location"),
+        has_sockets=bool(request.form.get("sockets")),
+        has_toilet=bool(request.form.get("toilet")),
+        has_wifi=bool(request.form.get("wifi")),
+        can_take_calls=bool(request.form.get("calls")),
+        seats=request.form.get("seats"),
+        coffee_price=request.form.get("coffee_price"),
+    )
+    db.session.add(new_cafe)
+    db.session.commit()
+    return jsonify(response={"success": "Successfully added the new cafe."})
+
 
 # HTTP PUT/PATCH - Update Record
+@app.route("/update-price/<int:cafe_id>", methods=["PATCH"])
+def update_price(cafe_id):
+    new_price = request.args.get("new_price")
+    cafe = db.get_or_404(Cafe, cafe_id)
+    if cafe:
+        cafe.coffee_price = new_price
+        db.session.commit()
+        return jsonify(update={"Success": f"Cafe:{cafe.name} price has been updated to {new_price}"}), 200
 
 # HTTP DELETE - Delete Record
 
