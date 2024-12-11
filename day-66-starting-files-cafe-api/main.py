@@ -6,6 +6,9 @@ from load_dotenv import load_dotenv
 import os
 import random
 
+
+API_KEY = "TopSecretAPIKey"
+
 load_dotenv()
 
 app = Flask(__name__)
@@ -122,6 +125,17 @@ def update_price(cafe_id):
         return jsonify(update={"Success": f"Cafe:{cafe.name} price has been updated to {new_price}"}), 200
 
 # HTTP DELETE - Delete Record
+@app.route("/report-closed/<int:cafe_id>", methods=['GET', 'POST', 'DELETE'])
+def report_closed(cafe_id):
+    key = request.args.get("api-key")
+    cafe = db.get_or_404(Cafe, cafe_id)
+    if key == API_KEY:
+        if cafe:
+            db.session.delete(cafe)
+            db.session.commit()
+            return jsonify(response={"Success": f"Cafe to delete:{cafe.name}"}), 200
+    else:
+        return jsonify(response={"Error": "Sorry your permissions dont allow this, please check your api key"}), 403
 
 
 if __name__ == '__main__':
